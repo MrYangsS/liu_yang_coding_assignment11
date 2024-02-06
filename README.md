@@ -22,7 +22,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 1. **Clone the repository**
 
-   git clone https://yourprojectrepository.com
+  git clone https://github.com/MrYangsS/liu_yang_coding_assignment11.git
 
 2. **Navigate to the project directory**
    cd your-directory
