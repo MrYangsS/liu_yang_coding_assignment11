@@ -39,6 +39,20 @@ A step-by-step series of examples that tell you how to get a development environ
 
    This command will start the Vite development server inside the Docker container, and the application will be accessible at `http://localhost:7775`.
 
+### Dokcerfile explanation
+
+WORKDIR /app
+ set the workDIR for container to run. /app is a folder under the container
+
+COPY package*.json ./
+ copy the package.json and package-lock.json from the vite&react project to the container it contain the dependency that container will need to install
+
+RUN npm install
+ project dependency installing command
+
+COPY . .
+ copy the rest files to container
+
 ### Usage
 
 Open your web browser and navigate to `http://localhost:7775` to view the application.
